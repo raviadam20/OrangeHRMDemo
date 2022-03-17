@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="OrangeHRM Test(failed)">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="Aftertest"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.AddEmpPIMTest">
+        <methods>
+          <include name="UpdateEMPName"/>
+        </methods>
+      </class> <!-- test.AddEmpPIMTest -->
+    </classes>
+  </test> <!-- OrangeHRM Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

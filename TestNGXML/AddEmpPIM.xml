@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+  <test name="OrangeHRM Test" >
+    <classes>
+    <class name="test.LoginTest" />
+       <class name="test.AddEmpPIMTest" />
+    </classes>
+  </test>
+</suite>
